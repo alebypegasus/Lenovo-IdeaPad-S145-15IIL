@@ -23,7 +23,7 @@
 ---
 
 ## 🍏 About This Hackintosh
-- **macOS Version**: [Insert macOS version here].  
+- **macOS Version**: [15,2].  
 - Designed for seamless integration with Apple's ecosystem.  
 - Fully functional system with optimized stability and performance. 🚀  
 
@@ -65,7 +65,7 @@
 
 ## 💌 Contact & Feedback
 Feel free to share your feedback or ask questions!  
-- **GitHub Repository**: [Insert link to your repository]  
+- **GitHub Repository**: [[OpenCore](https://github.com/acidanthera/OpenCorePkg)]  
 - **Screenshots & Updates**: Regularly shared for the community.  
 
 **Thank You for Visiting!** 😊
