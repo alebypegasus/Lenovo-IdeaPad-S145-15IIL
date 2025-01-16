@@ -64,8 +64,17 @@
 ---
 
 ## 💌 Contact & Feedback
-Feel free to share your feedback or ask questions!  
-- **GitHub Repository**: [[OpenCore](https://github.com/acidanthera/OpenCorePkg)]  
-- **Screenshots & Updates**: Regularly shared for the community.  
+Stay in touch and follow my journey on these platforms! 🌟
+| Platform       | Link                                                                                     | 
+|----------------|------------------------------------------------------------------------------------------|
+| **Facebook**   | [facebook.com/alebypegasus](https://facebook.com/alebypegasus)                           |
+| **Instagram**  | [instagram.com/alebypegasus](https://instagram.com/alebypegasus)                         |
+| **X**          | [x.com/alebypegasus](https://x.com/alebypegasus)                                         |
+| **LinkedIn**   | [linkedin.com/in/alebypegasus](https://linkedin.com/in/alebypegasus)                     |
+| **TikTok**     | [tiktok.com/@alebypegasus](https://tiktok.com/@alebypegasus)                             |
+| **Reddit**     | [reddit.com/u/alebypegasus](https://reddit.com/u/alebypegasus)                           |
+| **Telegram**   | [telegram.me/alebypegasus](telegram.me/alebypegasus)                                     |
+---
+🌟 Let's connect and grow together! Don't hesitate to reach out on any of these platforms. 😊
 
 **Thank You for Visiting!** 😊
