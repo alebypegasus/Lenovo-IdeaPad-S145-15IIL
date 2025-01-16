@@ -57,7 +57,7 @@
 - **[AppleALC](https://github.com/acidanthera/AppleALC)**: Enables onboard audio support.  
 - **[Lilu](https://github.com/acidanthera/Lilu)**: Compatibility plugin for macOS.  
 - **[VirtualSMC](https://github.com/acidanthera/VirtualSMC)**: Emulates Apple's SMC for Hackintosh.  
-- **[IntelMausi](https://github.com/acidanthera/IntelMausi)**: Ethernet support for Intel chipsets.  
+- **[OPCore Simplify](https://github.com/lzhoang2801/OpCore-Simplify)**: Best helper to create an EFI.  
 - **[ProperTree](https://github.com/corpnewt/ProperTree)**: OpenCore configuration editor.  
 - **[Hackintool](https://github.com/headkaze/Hackintool)**: Utility for troubleshooting and setup.  
 
