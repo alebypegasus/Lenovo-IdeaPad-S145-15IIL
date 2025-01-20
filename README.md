@@ -1,56 +1,55 @@
-# 🌟 Lenovo IdeaPad S145-15IIL Hackintosh Setup
+# EFI & Settings - Notebook Lenovo Idealpad S145 Core i7-1065G7 | Intel® 10th 
 
-## 💻 Welcome
-👋 **Welcome to the Lenovo IdeaPad S145-15IIL Hackintosh Journey**  
-- Explore the transformation of this powerful notebook into a Hackintosh.  
-- Learn about its hardware, macOS setup, and key features.  
----
-## 🛠️ Notebook Specifications
-| **Component**        | **Details**                                                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| 🧠 **Processor**      | Intel Core i7-1065G7 🌟 |
-| 🔧 **Motherboard**    | Lenovo LNVNB161216<br>Intel Ice Point-LP Chipset                        |
-| 💾 **RAM**            | Total: 20 GB DDR4<br>16 GB (Channel A) + 4 GB (Channel B)<br>1.2 V ⚡    |
-| 🖥️ **Graphics**       | Intel Iris Plus Graphics 🎨<br>1 GB Allocated Memory                   |
-| 📀 **Storage**        | SSD: ADATA LEGEND 710 (1000 GB) 🚀<br>HDD: Samsung HM500JI (500 GB)             |
-| 🔊 **Audio**          | Realtek ALC230 🎧                                       |
-| 🌐 **Network**        | Wi-Fi: Intel Dual Band Wireless-AC 7265 📡<br>Bluetooth: Intel Wireless Bluetooth |
-| 🔌 **Ports & Connectors** | 6 USB Ports (Type A)<br>1 HDMI Port<br>Mic & Headphone Mini-jack       |
-| 🔋 **Battery**        | Zinc-Air<br>Microsoft Surface ACPI-Compliant                           |
----
-## 🍏 About This Hackintosh
-- **macOS Version**: [15,2].  
-- Designed for seamless integration with Apple's ecosystem.  
-- Fully functional system with optimized stability and performance. 🚀  
-### **Key Features**
-- Native support for Intel Iris Plus Graphics with full acceleration.  
-- Smooth functionality of Wi-Fi, Bluetooth, and onboard audio.  
----
-## 🌟 System Highlights
-### Unique Features:
-1. **Graphics Acceleration**: Runs macOS graphics flawlessly.  
-2. **Native CPU Power Management**: Supports power efficiency and thermal stability.  
-3. **Custom Configuration**: Tailored OpenCore setup for this notebook.  
----
-## 📸 Screenshots
-| **Screenshot**            | **Description**                     |
-|---------------------------|-------------------------------------|
-| ![screenshot1](path/to/screenshot1.png) | macOS desktop after setup.        |
-| ![screenshot2](path/to/screenshot2.png) | "About This Mac" system details.  |
-| ![screenshot3](path/to/screenshot3.png) | GPU acceleration in action.       |
----
-## 🎉 Credits
-### Special Thanks to Tools & Developers
-- **[OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg)**: macOS bootloader for non-Apple hardware.  
-- **[WhateverGreen](https://github.com/acidanthera/WhateverGreen)**: Ensures GPU acceleration.  
-- **[AppleALC](https://github.com/acidanthera/AppleALC)**: Enables onboard audio support.  
-- **[Lilu](https://github.com/acidanthera/Lilu)**: Compatibility plugin for macOS.  
-- **[VirtualSMC](https://github.com/acidanthera/VirtualSMC)**: Emulates Apple's SMC for Hackintosh.  
-- **[OPCore Simplify](https://github.com/lzhoang2801/OpCore-Simplify)**: Best helper to create an EFI.  
-- **[ProperTree](https://github.com/corpnewt/ProperTree)**: OpenCore configuration editor.  
-- **[Hackintool](https://github.com/headkaze/Hackintool)**: Utility for troubleshooting and setup.  
----
-## 💌 Contact & Feedback
+**Laptop Factory Defaults:**
+
+Piece|Model
+:----|:----
+Plataforma|Notebook Lenovo Idealpad S145 | Intel 10th
+Processador|Core I7-1065G7 | Intel® 10th
+Vídeo|iGPU (Integrated) Intel Iris Plus
+Audio|Realtek ALC230
+Storage|SSD NVME 240GB for the operating system macOS
+Memory|1x4GB 2667MHz DDR4
+BIOS|Factory Default
+
+
+**Laptop Upgrade::**
+
+Piece|Model
+:----|:----
+Additional Storage| HD Sata 500GB for Time Machine
+Memory| 1x16GB in 2667MHz DDR4, Total Memory 20GB
+Wi-Fi end Bluetooth Card| BCM94360CS2 (I made an improvement I changed the default Wi-Fi card that came in the notebook. That way the Wi-Fi works natively)
+Update BIOS| Version (DKCN53WW). I updated the notebook's BIOS with the Lenovo program and reconfigured some items in it
+
+
+**EFI Information:**
+
+Options|Information
+:----|:----
+SMBIOS|MacBookPro16,2
+macOS|See the Releases and their descriptions
+macOS install images|Directly from the Apple store using gibMacOS
+OpenCore|Version 0.7.6 the 1.0.3
+
+
+- After updating the BIOS to version (DKCN53WW) and making its settings, I also modified the BIOS internally to avoid Kernel Panics!
+
+
+## **IMPORTANT ALERTS:**
+
+Carefully read the above content, because if you carefully follow everything I've done, you'll be able to use macOS without problems on your notebook, but always take into account the Hardware and Software changes I've made.
+
+However, even with these changes made by me, it is entirely possible to adapt these EFI to your Notebook as long as it has the same Hardware version mentioned above in (Laptop Factory Defaults), it is only necessary to update and configure for the BIOS version (DKCN53WW).
+
+I will leave just one more important detail, I removed my serials from the EFI's so it is necessary to generate new serials and add them to the config.plist file.
+Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate the serials, in order to make your life easier the place to add the serials is config.plist>PlatformInfo>Generic; and I marked the values that needed to be replaced with XXXXXXXXXXXXXXXX, just replace with the serials that you will generate in GenSMBIOS
+
+To modify the config.plist file I use [ProperTree](https://github.com/corpnewt/ProperTree).
+
+See photos of my Hackintosh 100% working in the previews folder.
+
+## **💌 CONTACT & FEEDBACK**
 Stay in touch and follow my journey on these platforms! 🌟
 | Platform       | Link                                                                                     | 
 |----------------|------------------------------------------------------------------------------------------|
