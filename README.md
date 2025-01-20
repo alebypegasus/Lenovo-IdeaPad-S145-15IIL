@@ -49,6 +49,21 @@ To modify the config.plist file I use [ProperTree](https://github.com/corpnewt/P
 
 See photos of my Hackintosh 100% working in the previews folder.
 
+## **ACKNOWLEDGEMENTS**
+
+A special thanks to the developers and contributors of the following tools and resources that made this project possible:
+
+- **OpenCore**: [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- **OCAuxiliaryTools**: [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+- **ProperTree**: [ProperTree](https://github.com/corpnewt/ProperTree)
+- **GenSMBIOS**: [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+- **gibMacOS**: [gibMacOS](https://github.com/corpnewt/gibMacOS)
+- **Hackintosh Community**: [olarila.com](https://olarila.com)
+
+A special thanks to @MaLd0n for his professional consulting for macOS Hackintosh since 2006. You can access his services [here](https://olarila.com/topic/40852-professional-consulting-for-macos-hackintosh-since-2006/).
+
+Your hard work and dedication are greatly appreciated!
+
 ## **💌 CONTACT & FEEDBACK**
 Stay in touch and follow my journey on these platforms! 🌟
 | Platform       | Link                                                                                     | 
