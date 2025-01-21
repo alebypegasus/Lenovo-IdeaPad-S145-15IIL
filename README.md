@@ -55,7 +55,7 @@ A special thanks to the developers and contributors of the following tools and r
 - **Hackintool**: [Hackintool](https://github.com/benbaker76/Hackintool) 🛠️
 - **IORegistryExplorer**: [IORegistryExplorer](https://github.com/utopia-team/IORegistryExplorer) 🛠️
 - **MaciASL**: [MaciASL](https://github.com/acidanthera/MaciASL) 🛠️
-- **Hackintosh Community**: [olarila.com](https://olarila.com) 🌐
+- **Hackintosh Community**: [Olarila](https://olarila.com) 🌐
 
 A special thanks to @MaLd0n for his professional consulting for macOS Hackintosh since 2006. You can access his services [here](https://olarila.com/topic/40852-professional-consulting-for-macos-hackintosh-since-2006/) 💼.
 
