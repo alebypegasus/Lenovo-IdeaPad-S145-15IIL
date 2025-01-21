@@ -13,6 +13,15 @@ Storage|SSD NVME 240GB for the operating system macOS
 Memory|1x4GB 2667MHz DDR4
 BIOS|Factory Default
 
+## **Screenshots:**
+
+Here are some screenshots of the Hackintosh setup:
+
+![Screenshot 1](Prints/Captura de Tela 2025-01-20 às 14.05.27.png)
+![Screenshot 2](Prints/Captura de Tela 2025-01-20 às 14.07.32.png)
+![Screenshot 3](Prints/Captura de Tela 2025-01-20 às 14.08.02.png)
+
+For more screenshots, please check the [Prints](Prints) folder.
 
 **Laptop Upgrade:**
 Piece|Model
