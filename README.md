@@ -1,87 +1,189 @@
-# EFI - Notebook Lenovo Idealpad S145 Core i7-1065G7 | Intel® 10th 
+# EFI - Lenovo IdeaPad S145 | Intel® Core i7-1065G7
 
-![macOS Sequoia](https://olhardigital.com.br/wp-content/uploads/2024/06/macos_sequoia-1024x576.png)
+<div>
+    <img src="https://olhardigital.com.br/wp-content/uploads/2024/06/macos_sequoia-1024x576.png" alt="macOS Sequoia" width="900"/>
+</div>
+<br>
+**Transforming your Lenovo laptop into a perfect Hackintosh!**
 
-**Laptop Factory Defaults:**
-Piece|Model
-:----|:----
-Plataforma|Notebook Lenovo Idealpad S145 | Intel 10th
-Processador|Core I7-1065G7 | Intel® 10th
-Vídeo|iGPU (Integrated) Intel Iris Plus
-Audio|Realtek ALC230
-Storage|SSD NVME 240GB for the operating system macOS
-Memory|1x4GB 2667MHz DDR4
-BIOS|Factory Default
+---
+
+## **Laptop Factory Defaults:**
+
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f5f5f7;">
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Component</th>
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Model</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Platform</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Lenovo IdeaPad S145 | Intel® 10th Gen</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Processor</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Core i7-1065G7 | Intel® 10th Gen</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Graphics</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Intel® Iris Plus (iGPU)</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Audio</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Realtek ALC230</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Storage</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">240GB NVMe SSD (macOS)</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Memory</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">1x4GB 2667MHz DDR4</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">BIOS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Factory Default</td>
+        </tr>
+    </tbody>
+</table>
+
+---
 
 ## **Screenshots:**
 
-Here are some screenshots of the Hackintosh setup:
+Here are some screenshots of my Hackintosh setup:
 
-![Screenshot 1](Prints/Captura de Tela 2025-01-20 às 14.05.27.png)
-![Screenshot 2](Prints/Captura de Tela 2025-01-20 às 14.07.32.png)
-![Screenshot 3](Prints/Captura de Tela 2025-01-20 às 14.08.02.png)
+<div align="left">
+    <img src="https://github.com/alebypegasus/Lenovo-IdeaPad-S145-15IIL/blob/main/Prints/Captura%20de%20Tela%202025-01-20%20a%CC%80s%2014.05.27.png?raw=true" alt="Screenshot 1" width="200"/>
+</div>
 
-For more screenshots, please check the [Prints](Prints) folder.
+For more screenshots, check the "Prints" folder.
 
-**Laptop Upgrade:**
-Piece|Model
-:----|:----
-Additional Storage| HD Sata 500GB for Time Machine
-Memory| 1x16GB in 2667MHz DDR4, Total Memory 20GB
-Wi-Fi end Bluetooth Card| BCM94360CS2 (I made an improvement I changed the default Wi-Fi card that came in the notebook. That way the Wi-Fi works natively)
-Update BIOS| Version (DKCN53WW). I updated the notebook's BIOS with the Lenovo program and reconfigured some items in it
+---
 
-**EFI Information:**
-Options|Information
-:----|:----
-SMBIOS|MacBookPro16,2
-macOS|See the Releases and their descriptions
-macOS install images|Directly from the Apple store using gibMacOS
-OpenCore|Version 0.7.6 the 1.0.3
+## **Laptop Upgrade:**
 
-- After updating the BIOS to version (DKCN53WW) and making its settings, I also modified the BIOS internally to avoid Kernel Panics!
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f5f5f7;">
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Component</th>
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Model</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Additional Storage</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">500GB SATA HDD (Time Machine)</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Memory</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">1x16GB 2667MHz DDR4 (Total: 20GB)</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Wi-Fi & Bluetooth</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">BCM94360CS2 (Upgraded Wi-Fi card)</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">BIOS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version (DKCN53WW) - Updated</td>
+        </tr>
+    </tbody>
+</table>
 
-## **IMPORTANT ALERTS:**
-Carefully read the above content, because if you carefully follow everything I've done, you'll be able to use macOS without problems on your notebook, but always take into account the Hardware and Software changes I've made.
+---
 
-However, even with these changes made by me, it is entirely possible to adapt these EFI to your Notebook as long as it has the same Hardware version mentioned above in (Laptop Factory Defaults), it is only necessary to update and configure for the BIOS version (DKCN53WW).
+## **EFI Information:**
 
-I will leave just one more important detail, I removed my serials from the EFI's so it is necessary to generate new serials and add them to the config.plist file.
-Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate the serials, in order to make your life easier the place to add the serials is config.plist>PlatformInfo>Generic; and I marked the values that needed to be replaced with XXXXXXXXXXXXXXXX, just replace with the serials that you will generate in GenSMBIOS
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f5f5f7;">
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Options</th>
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Information</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">SMBIOS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">MacBookPro16,2</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">macOS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">See Releases and their descriptions</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">macOS Install Images</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Directly from the Apple Store using gibMacOS</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">OpenCore</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version 0.7.6 to 1.0.3</td>
+        </tr>
+    </tbody>
+</table>
 
-To modify the config.plist file I use [ProperTree](https://github.com/corpnewt/ProperTree).
+---
 
-See photos of my Hackintosh 100% working in the previews folder.
+### **IMPORTANT NOTE:**
 
-## **ACKNOWLEDGEMENTS** 🙏
+<p style="background-color: #ffefc1; border: 1px solid #f7d268; padding: 15px; margin-top: 20px; font-size: 16px; border-radius: 8px;">
+    <strong>Follow the instructions carefully!</strong> If you follow all the steps, you will be able to run macOS without issues. However, keep in mind the hardware and software changes necessary for perfect Hackintosh functionality.
+</p>
+
+---
+
+### **Generating Serial & Configuration:**
+
+Don't forget to generate new serials and insert them into the `config.plist` file to customize your Hackintosh. Use the tool [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) for this.
+
+To modify the `config.plist`, use [**ProperTree**](https://github.com/corpnewt/ProperTree).
+
+---
+
+## **Acknowledgements** 🙏
+
 A special thanks to the developers and contributors of the following tools and resources that made this project possible:
 
-- **OpenCore**: [OpenCore](https://github.com/acidanthera/OpenCorePkg) 🚀
-- **OCAuxiliaryTools**: [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 🛠️
-- **ProperTree**: [ProperTree](https://github.com/corpnewt/ProperTree) 🌳
-- **GenSMBIOS**: [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 🔧
-- **gibMacOS**: [gibMacOS](https://github.com/corpnewt/gibMacOS) 🍏
-- **Hackintool**: [Hackintool](https://github.com/benbaker76/Hackintool) 🛠️
-- **IORegistryExplorer**: [IORegistryExplorer](https://github.com/utopia-team/IORegistryExplorer) 🛠️
-- **MaciASL**: [MaciASL](https://github.com/acidanthera/MaciASL) 🛠️
-- **Hackintosh Community**: [Olarila](https://olarila.com) 🌐
+- [**OpenCore**](https://github.com/acidanthera/OpenCorePkg)
+- [**OCAuxiliaryTools**](https://github.com/ic005k/OCAuxiliaryTools)
+- [**ProperTree**](https://github.com/corpnewt/ProperTree)
+- [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS)
+- [**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+- [**Hackintool**](https://github.com/benbaker76/Hackintool)
+- [**IORegistryExplorer**](https://github.com/utopia-team/IORegistryExplorer)
+- [**MaciASL**](https://github.com/acidanthera/MaciASL)
 
-A special thanks to @MaLd0n for his professional consulting for macOS Hackintosh since 2006. You can access his services [here](https://olarila.com/topic/40852-professional-consulting-for-macos-hackintosh-since-2006/) 💼.
+A special thanks to [@MaLd0n](https://olarila.com/topic/40852-professional-consulting-for-macos-hackintosh-since-2006/) for his professional consulting for macOS Hackintosh since 2006.
 
 Your hard work and dedication are greatly appreciated! 🎉
 
-## **💌 CONTACT & FEEDBACK** 📬
-Stay in touch and follow my journey on these platforms! 🌟
-| Platform       | Link                                                                                     | 
-|----------------|------------------------------------------------------------------------------------------|
-| **Facebook**   | [facebook.com/alebypegasus](https://facebook.com/alebypegasus)                           |
-| **Instagram**  | [instagram.com/alebypegasus](https://instagram.com/alebypegasus)                         |
-| **X**          | [x.com/alebypegasus](https://x.com/alebypegasus)                                         |
-| **LinkedIn**   | [linkedin.com/in/alebypegasus](https://linkedin.com/in/alebypegasus)                     |
-| **TikTok**     | [tiktok.com/@alebypegasus](https://tiktok.com/@alebypegasus)                             |
-| **Reddit**     | [reddit.com/u/alebypegasus](https://reddit.com/u/alebypegasus)                           |
-| **Telegram**   | [telegram.me/alebypegasus](telegram.me/alebypegasus)                                     |
 ---
-🌟 Let's connect and grow together! Don't hesitate to reach out on any of these platforms. 😊
 
-**Thank You for Visiting!** 😊
+## **Contact & Feedback** 📬
+
+Stay connected with me on these platforms and follow my Hackintosh journey!
+
+<table style="width:100%; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f5f5f7;">
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Platform</th>
+            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Facebook</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://facebook.com/alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Instagram</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://instagram.com/alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">X</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://x.com/alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">LinkedIn</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://linkedin.com/in/alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">TikTok</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://tiktok.com/@alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Reddit</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://reddit.com/u/alebypegasus">alebypegasus</a></td></tr>
+        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Telegram</td><td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://telegram.me/alebypegasus">alebypegasus</a></td></tr>
+    </tbody>
+</table>
+
+---
+
+🌟 Let's connect and grow together! Feel free to reach out on any of these platforms. 😊
+
+**Thank you for visiting!** 😊
