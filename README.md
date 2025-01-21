@@ -1,4 +1,4 @@
-# EFI & Settings - Notebook Lenovo Idealpad S145 Core i7-1065G7 | Intel® 10th 
+# EFI - Notebook Lenovo Idealpad S145 Core i7-1065G7 | Intel® 10th 
 
 ![macOS Sequoia](https://olhardigital.com.br/wp-content/uploads/2024/06/macos_sequoia-1024x576.png)
 
@@ -52,6 +52,9 @@ A special thanks to the developers and contributors of the following tools and r
 - **ProperTree**: [ProperTree](https://github.com/corpnewt/ProperTree) 🌳
 - **GenSMBIOS**: [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 🔧
 - **gibMacOS**: [gibMacOS](https://github.com/corpnewt/gibMacOS) 🍏
+- **Hackintool**: [Hackintool](https://github.com/benbaker76/Hackintool) 🛠️
+- **IORegistryExplorer**: [IORegistryExplorer](https://github.com/utopia-team/IORegistryExplorer) 🛠️
+- **MaciASL**: [MaciASL](https://github.com/acidanthera/MaciASL) 🛠️
 - **Hackintosh Community**: [olarila.com](https://olarila.com) 🌐
 
 A special thanks to @MaLd0n for his professional consulting for macOS Hackintosh since 2006. You can access his services [here](https://olarila.com/topic/40852-professional-consulting-for-macos-hackintosh-since-2006/) 💼.
