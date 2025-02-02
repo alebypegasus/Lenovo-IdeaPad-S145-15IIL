@@ -118,7 +118,7 @@ For more screenshots, check the "Prints" folder.
         </tr>
         <tr>
             <td style="padding: 12px; border-bottom: 1px solid #ddd;">OpenCore</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version 0.7.6 to 1.0.3</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version 0.7.6 to 1.0.4</td>
         </tr>
     </tbody>
 </table>
