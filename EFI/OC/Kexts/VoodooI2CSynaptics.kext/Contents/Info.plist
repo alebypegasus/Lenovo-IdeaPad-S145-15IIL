@@ -55,7 +55,7 @@
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>name</key>
-				<string>SYNA2B33</string>
+				<string>SYNA2B61</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>VoodooI2CDeviceNub</string>
