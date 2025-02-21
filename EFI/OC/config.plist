@@ -134,6 +134,14 @@
 				<key>Path</key>
 				<string>SSDT-PTSWAKTTS.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RCSM.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -1853,6 +1861,8 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+	
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
