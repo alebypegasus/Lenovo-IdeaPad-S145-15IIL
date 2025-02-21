@@ -1797,6 +1797,12 @@
 				<string>0</string>
 				<key>prev-lang:kbd</key>
 				<data></data>
+				<key>StartupMute</key>
+				<data>AA==</data>
+				<key>SystemAudioVolume</key>
+				<data>Rg==</data>
+				<key>SystemAudioVolumeDB</key>
+				<data>4g==</data>
 			</dict>
 			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
 			<dict>
@@ -1862,7 +1868,7 @@
 		<key>CustomMemory</key>
 		<false/>
 		<key>DataHub</key>
-	
+		
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
@@ -2071,7 +2077,7 @@
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
-			<false/>
+			<true/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
