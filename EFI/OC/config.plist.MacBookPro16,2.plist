@@ -688,12 +688,12 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#AAPL,ig-platform-id</key>
+                    <data>AgBTig==</data>
                     <key>AAPL,GfxYTile</key>
                     <data>AQAAAA==</data>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AABSig==</data>
                     <key>AAPL,slot-name</key>
-                    <string>Internal@0,2,0</string>
+                    <string>built-in</string>
                     <key>AAPL00,override-no-connect</key>
                     <data>AP///////wAGEPKcAAAAABoVAQSVGg54Au8Fl1dUkiciUFQAAAABAQEBAQEBAQEBAQEBAQEBAzqANnE4HkAwIDYAWMIQAAAaAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/gBOVDE1NkZITS1ONjEKAEY=</data>
                     <key>backlight-smoother-interval</key>
@@ -703,7 +703,7 @@
                     <key>backlight-smoother-threshold</key>
                     <data>AAAAAA==</data>
                     <key>device-id</key>
-                    <data>UooAAA==</data>
+                    <data>U4oAAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
                     <key>dpcd-max-link-rate</key>
@@ -1623,7 +1623,7 @@
                 <key>ProvideCurrentCpuInfo</key>
                 <false/>
                 <key>SetApfsTrimTimeout</key>
-                <integer>0</key>
+                <integer>0</integer>
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
@@ -1676,7 +1676,7 @@
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
-                <integer>5</integer>
+                <integer>0</integer>
             </dict>
             <key>Debug</key>
             <dict>
@@ -1714,7 +1714,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>3</integer>
+                <integer>15</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1796,7 +1796,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-vi2c-force-polling watchdog=0 agdpmod=vit9696 -noDC9 TSC_sync_margin=0 -btlfxbet</string>
+                    <string></string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>darkwake</key>
@@ -1872,7 +1872,7 @@
                 <key>ARTFrequency</key>
                 <integer>0</integer>
                 <key>BoardProduct</key>
-                <string>Mac-XXXXXXXXXXXXXXX</string>
+                <string>Mac-5F9802EFE386AA28</string>
                 <key>BoardRevision</key>
                 <data>Bg==</data>
                 <key>DevicePathsSupported</key>
@@ -1892,18 +1892,18 @@
                 <key>StartupPowerEvents</key>
                 <integer>0</integer>
                 <key>SystemProductName</key>
-                <string>MacBookProXX,X</string>
+                <string>MacBookPro16,2</string>
                 <key>SystemSerialNumber</key>
-                <string>XXXXXXXXXXXX</string>
+                <string>C02DH0Y0ML7H</string>
                 <key>SystemUUID</key>
-                <string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+                <string>C1723849-82AE-49FA-9F92-5DA5BDA486E6</string>
             </dict>
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>XXXXXXXXXXXXXXX</string>
+                <string>C02040300GUP8PGCB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1915,11 +1915,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>MacBookProXX,X</string>
+                <string>MacBookPro16,2</string>
                 <key>SystemSerialNumber</key>
-                <string>XXXXXXXXXXXX</string>
+                <string>C02DH0Y0ML7H</string>
                 <key>SystemUUID</key>
-                <string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+                <string>C1723849-82AE-49FA-9F92-5DA5BDA486E6</string>
             </dict>
             <key>Memory</key>
             <dict>
@@ -1980,19 +1980,19 @@
             <key>PlatformNVRAM</key>
             <dict>
                 <key>BID</key>
-                <string>Mac-XXXXXXXXXXXXXXX</string>
+                <string>Mac-5F9802EFE386AA28</string>
                 <key>FirmwareFeatures</key>
                 <data>bvCv/wgAAAA=</data>
                 <key>FirmwareFeaturesMask</key>
                 <data>f////wgAAAA=</data>
                 <key>MLB</key>
-                <string>XXXXXXXXXXXXXXX</string>
+                <string>C02040300GUP8PGCB</string>
                 <key>ROM</key>
                 <data>mNk0pIbm</data>
                 <key>SystemSerialNumber</key>
-                <string>XXXXXXXXXXXX</string>
+                <string>C02DH0Y0ML7H</string>
                 <key>SystemUUID</key>
-                <string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+                <string>C1723849-82AE-49FA-9F92-5DA5BDA486E6</string>
             </dict>
             <key>SMBIOS</key>
             <dict>
@@ -2009,23 +2009,23 @@
                 <key>BoardManufacturer</key>
                 <string></string>
                 <key>BoardProduct</key>
-                <string>Mac-XXXXXXXXXXXXXXX</string>
+                <string>Mac-5F9802EFE386AA28</string>
                 <key>BoardSerialNumber</key>
-                <string>XXXXXXXXXXXXXXX</string>
+                <string>C02040300GUP8PGCB</string>
                 <key>BoardType</key>
                 <integer>10</integer>
                 <key>BoardVersion</key>
-                <string>MacBookProXX,X</string>
+                <string>MacBookPro16,2</string>
                 <key>ChassisAssetTag</key>
                 <string></string>
                 <key>ChassisManufacturer</key>
                 <string></string>
                 <key>ChassisSerialNumber</key>
-                <string>XXXXXXXXXXXX</string>
+                <string>C02DH0Y0ML7H</string>
                 <key>ChassisType</key>
                 <integer>9</integer>
                 <key>ChassisVersion</key>
-                <string>Mac-XXXXXXXXXXXXXXX</string>
+                <string>Mac-5F9802EFE386AA28</string>
                 <key>FirmwareFeatures</key>
                 <data>bvCv/wgAAAA=</data>
                 <key>FirmwareFeaturesMask</key>
@@ -2041,13 +2041,13 @@
                 <key>SystemManufacturer</key>
                 <string></string>
                 <key>SystemProductName</key>
-                <string>MacBookProXX,X</string>
+                <string>MacBookPro16,2</string>
                 <key>SystemSKUNumber</key>
                 <string></string>
                 <key>SystemSerialNumber</key>
-                <string>XXXXXXXXXXXX</string>
+                <string>C02DH0Y0ML7H</string>
                 <key>SystemUUID</key>
-                <string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+                <string>C1723849-82AE-49FA-9F92-5DA5BDA486E6</string>
                 <key>SystemVersion</key>
                 <string>1.0</string>
             </dict>
@@ -2121,7 +2121,7 @@
                 <key>DisconnectHda</key>
                 <false/>
                 <key>MaximumGain</key>
-                <integer>0</integer>
+                <integer>-15</integer>
                 <key>MinimumAssistGain</key>
                 <integer>-30</integer>
                 <key>MinimumAudibleGain</key>
