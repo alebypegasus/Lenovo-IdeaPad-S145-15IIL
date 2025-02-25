@@ -59,7 +59,7 @@ Here are some screenshots of my Hackintosh setup:
     <img src="Prints/Captura de Tela 2025-01-20 às 14.05.27.png" alt="Screenshot" width="200"/>
 </div>
 
-For more screenshots, check the "Prints" folder.
+For more screenshots, check the "[Prints](Prints)" folder.
 
 ---
 
