@@ -104,6 +104,10 @@ For more screenshots, check the "Prints" folder.
         </tr>
     </thead>
     <tbody>
+            <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">SMBIOS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">MacBookAir9,1</td>
+        </tr>
         <tr>
             <td style="padding: 12px; border-bottom: 1px solid #ddd;">SMBIOS</td>
             <td style="padding: 12px; border-bottom: 1px solid #ddd;">MacBookPro16,2</td>
