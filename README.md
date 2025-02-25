@@ -56,7 +56,7 @@
 Here are some screenshots of my Hackintosh setup:
 
 <div align="left">
-    <img src="https://github.com/alebypegasus/Lenovo-IdeaPad-S145-15IIL/blob/main/Prints/Captura%20de%20Tela%202025-01-20%20a%CC%80s%2014.05.27.png?raw=true" alt="Screenshot 1" width="200"/>
+    <img src="Prints/Captura de Tela 2025-01-20 às 14.05.27.png" alt="Screenshot" width="200"/>
 </div>
 
 For more screenshots, check the "Prints" folder.
