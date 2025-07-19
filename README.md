@@ -1,53 +1,119 @@
-# EFI - Lenovo IdeaPad S145 | Intel® Core i7-1065G7
+# EFI for Lenovo IdeaPad S145 (Intel® Core i7-1065G7)
 
-<div>
-    <img src="https://olhardigital.com.br/wp-content/uploads/2024/06/macos_sequoia-1024x576.png" alt="macOS Sequoia" width="900"/>
-</div>
-<br>
-**Transforming your Lenovo laptop into a perfect Hackintosh!**
+![macOS Sequoia](https://olhardigital.com.br/wp-content/uploads/2024/06/macos_sequoia-1024x576.png)
+
+> **Turn your Lenovo IdeaPad S145 into a perfect Hackintosh!**
 
 ---
 
-## **Laptop Factory Defaults:**
+## About This Project
 
-<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
-    <thead>
-        <tr style="background-color: #f5f5f7;">
-            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Component</th>
-            <th style="padding: 12px; text-align: left; border-bottom: 1px solid #ddd;">Model</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Platform</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Lenovo IdeaPad S145 | Intel® 10th Gen</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Processor</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Core i7-1065G7 | Intel® 10th Gen</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Graphics</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Intel® Iris Plus (iGPU)</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Audio</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Realtek ALC230</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Storage</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">240GB NVMe SSD (macOS)</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Memory</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">1x4GB 2667MHz DDR4</td>
-        </tr>
-        <tr>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">BIOS</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Factory Default</td>
-        </tr>
-    </tbody>
-</table>
+This repository provides a complete EFI folder for running macOS on the Lenovo IdeaPad S145 with Intel® Core i7-1065G7 (10th Gen). Here you will find all the necessary ACPI patches, kexts, and configuration tips to achieve a stable and fully functional Hackintosh experience.
+
+---
+
+## Laptop Factory Specs
+
+| Component  | Model |
+|------------|-------|
+| Platform   | Lenovo IdeaPad S145 (Intel® 10th Gen) |
+| Processor  | Core i7-1065G7 (Intel® 10th Gen) |
+| Graphics   | Intel® Iris Plus (iGPU) |
+| Audio      | Realtek ALC230 |
+| Storage    | 240GB NVMe SSD (macOS) |
+| Memory     | 1x4GB 2667MHz DDR4 |
+| BIOS       | Factory Default |
+
+---
+
+## Laptop Upgrades
+
+| Component           | Model                                 |
+|---------------------|---------------------------------------|
+| Additional Storage  | 500GB SATA HDD (Time Machine)         |
+| Memory              | 1x16GB 2667MHz DDR4 (Total: 20GB)     |
+| Wi-Fi & Bluetooth   | BCM94360CS2 (Upgraded Wi-Fi card)     |
+| BIOS                | Version DKCN53WW (Updated)            |
+
+---
+
+## EFI Overview
+
+| Option                | Information                                 |
+|-----------------------|---------------------------------------------|
+| SMBIOS                | MacBookAir9,1 / MacBookPro16,2              |
+| macOS                 | See Releases and their descriptions         |
+| macOS Install Images  | Downloaded from Apple Store via gibMacOS    |
+| OpenCore              | Version 0.7.6 to 1.0.5                      |
+
+---
+
+## ACPI Patches (EFI/OC/ACPI)
+
+All ACPI files below are custom SSDTs or patches to enable or fix specific hardware features for macOS compatibility:
+
+| File                      | Description |
+|---------------------------|-------------|
+| DMAR.aml                  | Fixes for DMA Remapping (VT-d) |
+| SSDT-ALS0.aml             | Ambient Light Sensor support |
+| SSDT-EC.aml               | Embedded Controller device for battery and sensors |
+| SSDT-EXT1-FixShutdown.aml | Fixes shutdown issues |
+| SSDT-EXT3-WakeScreen.aml  | Fixes screen wake from sleep |
+| SSDT-EXT5-TP-LED.aml      | Touchpad LED support |
+| SSDT-GPI0.aml             | General Purpose I/O support |
+| SSDT-GPI0_GPHD.aml        | Additional GPIO support |
+| SSDT-GPRW.aml             | Proper wake support for sleep |
+| SSDT-HPET.aml             | High Precision Event Timer patch |
+| SSDT-PLUG.aml             | CPU power management (PluginType) |
+| SSDT-PMC.aml              | Intel Power Management Controller patch |
+| SSDT-PNLF.aml             | Enables backlight control (Panel device) |
+| SSDT-PTSWAKTTS.aml        | Power state wake fix |
+| SSDT-RTCAWAC.aml          | Real Time Clock patch |
+| SSDT-SBUS-MCHC.aml        | SMBus and Memory Controller support |
+| SSDT-TPD0.aml             | Touchpad device patch |
+| SSDT-USB-Reset.aml        | USB port reset/fix |
+| SSDT-USBX.aml             | USB power properties |
+| SSDT-XOSI.aml             | OSI patch for macOS compatibility |
+
+---
+
+## Kexts Used (EFI/OC/Kexts)
+
+All kexts below are used to enable or improve hardware compatibility and macOS features:
+
+| Kext                    | Description |
+|-------------------------|-------------|
+| ACPIBatteryManager      | Battery status and management |
+| AMFIPass                | Bypass Apple Mobile File Integrity (for some patches) |
+| AirportBrcmFixup        | Enables Broadcom Wi-Fi cards |
+| AppleALC                | Enables onboard audio (ALC230) |
+| BrightnessKeys          | Brightness hotkey support |
+| CPUFriend               | CPU power management tuning |
+| CPUFriendDataProvider   | Data provider for CPUFriend |
+| CpuTscSync              | Fixes CPU TSC sync issues (multi-core) |
+| ECEnabler               | Enables EC device for battery/sensors |
+| FeatureUnlock           | Unlocks macOS features (Sidecar, etc) |
+| HibernationFixup        | Fixes hibernation/sleep issues |
+| HoRNDIS                 | USB tethering for Android devices |
+| IO80211FamilyLegacy     | Wi-Fi support for legacy chipsets |
+| IOSkywalkFamily         | Network stack support |
+| Lilu                    | Core patching framework (required by most kexts) |
+| NVMeFix                 | Fixes NVMe SSD compatibility |
+| NullEthernet            | Enables Ethernet for unsupported chips |
+| RTCMemoryFixup          | RTC memory patch |
+| RestrictEvents          | Prevents unwanted macOS events |
+| SMCLightSensor          | Light sensor support |
+| SMCProcessor            | CPU sensor support |
+| SMCSuperIO              | Fan and sensor support |
+| USBPorts                | USB port mapping |
+| USBToolBox              | USB port configuration |
+| UTBMap                  | USB mapping data |
+| VirtualSMC              | SMC device emulation (required for boot) |
+| VoodooI2C               | I2C touchpad support |
+| VoodooI2CSynaptics      | Synaptics touchpad support |
+| VoodooPS2Controller     | PS/2 keyboard/touchpad support |
+| WhateverGreen           | Graphics patching (iGPU) |
+| itlwm                   | Intel Wi-Fi support |
 
 ---
 
@@ -122,7 +188,7 @@ For more screenshots, check the "[Prints](Prints)" folder.
         </tr>
         <tr>
             <td style="padding: 12px; border-bottom: 1px solid #ddd;">OpenCore</td>
-            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version 0.7.6 to 1.0.4</td>
+            <td style="padding: 12px; border-bottom: 1px solid #ddd;">Version 0.7.6 to 1.0.5</td>
         </tr>
     </tbody>
 </table>
