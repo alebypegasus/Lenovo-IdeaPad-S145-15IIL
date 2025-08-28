@@ -150,7 +150,7 @@ Todos os kexts abaixo são usados para habilitar ou melhorar a compatibilidade d
 Aqui estão algumas capturas de tela da minha configuração Hackintosh:
 
 <div align="left">
-    <img src="Prints/Captura de Tela 2025-01-20 às 14.05.27.png" alt="Screenshot" width="200"/>
+    <img src="Prints/Captura%20de%20Tela%202025-08-28%20a%CC%80s%2018.51.15.png" alt="Screenshot" width="200"/>
 </div>
 
 Para mais capturas de tela, verifique a pasta "[Prints](Prints)".
